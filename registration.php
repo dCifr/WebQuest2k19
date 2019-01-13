@@ -122,8 +122,6 @@ if(isset($_POST["register"]))
     background-color: #f2a47d;
   }
 
-
-
   .form--login input[type="submit"] {
     background-color: #ee672f;
     color: #eee;
@@ -280,40 +278,6 @@ if(isset($_POST["register"]))
       height: 180px;
     }
 
-    .middle {
-      width: 110px;
-      height: 110px;
-      margin-left: -55px;
-      margin-top: -55px;
-      background: #2c3338;
-      z-index: 900;
-    }
-
-    .bgBorder {
-      height: 20px;
-      position: absolute;
-      box-shadow: 1px 3px 3px #000;
-      border-radius: 50px / 10px;
-      background: #ee672f;
-    }
-
-    .top {
-      width: 350px;
-      top: 35px;
-      left: 80px;
-    }
-
-    .center {
-      width: 450px;
-      top: 80px;
-      left: 20px;
-    }
-
-    .bottom {
-      width: 350px;
-      bottom: 35px;
-      left: 80px;
-    }
     html { 
       background: url('images/wqbg1.jpg') no-repeat center center fixed; 
       -webkit-background-size: cover;
@@ -324,13 +288,6 @@ if(isset($_POST["register"]))
       height: 100%;
     }
 
-  a:link
-  {
-    color: #d7b748;
-  } 
-  a: hover {
-    color: #e3dedb;
-  }
 </style>
 	</style>
 	<script>
